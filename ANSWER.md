@@ -50,7 +50,7 @@ L'A/B Testing (parfois appelés tests partagés) compare deux versions d'une pag
 # 6.
 Comment programmer le cloud ?
 
------
+Question vague. On peut utiliser AWS qui fournit de nombreux cloud différents en fonction des besoins.
 
 # 7.
 Quelle est la technique pour faire un déploiement sans interruption de service ?
