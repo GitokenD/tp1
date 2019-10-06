@@ -8,7 +8,7 @@ Qu'est-ce qu'une instance EC2 ?
 
 Elastic Compute Cloud (EC2) est un service proposé par AWS permettant à des tiers de louer des serveurs sur lesquels exécuter leurs propres applications web.
 
-EC2 permet un déploiement extensible des applications en fournissant une interface web par laquelle un client peut créer des machines virtuelles sur lesquelles le client peut charger n'importe quel logiciel de son choix. Un client peut créer, lancer, et arrêter des instances de serveurs en fonction de ses besoins, et payer en fonction du temps d'usage des serveurs, d'où le terme d'« Élastique ». Un client peut mettre en place des instances de serveurs isolées physiquement (qui ne s'exécutent pas sur le même serveur physique) les unes des autres, de telle façon qu'en cas de panne, il soit possible de restaurer les instances défaillantes et d'assurer la continuité du service
+EC2 permet un déploiement extensible des applications en fournissant une interface web par laquelle un client peut créer des machines virtuelles sur lesquelles le client peut charger n'importe quel logiciel de son choix. Un client peut créer, lancer, et arrêter des instances de serveurs en fonction de ses besoins, et payer en fonction du temps d'usage des serveurs, d'où le terme d'« Élastique ». Un client peut mettre en place des instances de serveurs isolées physiquement (qui ne s'exécutent pas sur le même serveur physique) les unes des autres, de telle façon qu'en cas de panne, il soit possible de restaurer les instances défaillantes et d'assurer la continuité du service.
 
 # 2.
 Qu'est-ce qu'un VPC ?
@@ -27,19 +27,19 @@ Les Network Security Groups permettent de définir des règles qui contrôlent l
 # 4.
 Quelles sont les 5 propriétés désirables du cloud ?
 
- - Accès aux services par l’utilisateur à la demande
+ - Accès aux services par l’utilisateur à la demande.
 La mise en œuvre des systèmes est entièrement automatisée et c’est l’utilisateur, au moyen d’une console de commande, qui met en place et gère la configuration à distance.
 
- - Accès réseau large bande
+ - Accès réseau large bande.
 Ces centres de traitement sont généralement raccordés directement sur le backbone Internet pour bénéficier d’une excellente connectivité. Les grands fournisseurs répartissent les centres de traitement sur la planète pour fournir un accès aux systèmes en moins de 50 ms de n’importe quel endroit.
 
- - Réservoir de ressources (non localisées)
+ - Réservoir de ressources (non localisées).
 La plupart de ces centres comportent des dizaines de milliers de serveurs et de moyens de stockage pour permettre des montées en charge rapides. Il est souvent possible de choisir une zone géographique pour mettre les données “près” des utilisateurs.
 
- - Redimensionnement rapide (élasticité)
+ - Redimensionnement rapide (élasticité).
 La mise en ligne d’une nouvelle instance d’un serveur est réalisée en quelques minutes, l’arrêt et le redémarrage en quelques secondes. Toutes ces opérations peuvent s’effectuer automatiquement par des scripts. Ces mécanismes de gestion permettent de bénéficier pleinement de la facturation à l’usage en adaptant la puissance de calcul au trafic instantané.
 
- - Facturation à l’usage
+ - Facturation à l’usage.
 Il n’y a généralement pas de coût de mise en service (c’est l’utilisateur qui réalise les opérations). La facturation est calculée en fonction de la durée et de la quantité de ressources utilisées. Une unité de traitement stoppée n’est pas facturée.
 
 # 5.
